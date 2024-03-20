@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
+using namespace std;
+
 #include <ext/pb_ds/tree_policy.hpp>
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
-using namespace std;
 
 #define ordered_set tree<int, null_type, less_equal<int>, rb_tree_tag, tree_order_statistics_node_update>
 
@@ -18,7 +19,7 @@ using namespace std;
 int main()
 {
     ordered_set s;
-    s.insert(1);
-    s.find_by_order(1);
+    // s.insert(1);
+    // s.find_by_order(1);
     return 0;
 }

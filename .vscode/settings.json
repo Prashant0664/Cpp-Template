@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "cctype": "cpp"
+        "cctype": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp"
     }
 }

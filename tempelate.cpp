@@ -6,6 +6,7 @@ using namespace std;
 #define printv(v) for(auto x:v){ps(x);}endo;
 #define printve(v) for(auto x:v){ps(x);};
 #define mod 1000000007
+typedef long long int ll;
 
 void __print(int x) {cerr << x;}
 void __print(long x) {cerr << x;}

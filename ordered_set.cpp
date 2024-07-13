@@ -19,7 +19,10 @@ using namespace __gnu_pbds;
 int main()
 {
     ordered_set s;
-    // s.insert(1);
-    // s.find_by_order(1);
+    s.insert(1);
+    s.insert(13);
+    s.insert(12);
+    auto t=*s.find_by_order(2);
+    cout<<t<<" ";
     return 0;
 }
